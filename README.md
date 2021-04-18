@@ -35,4 +35,4 @@ Design a binary classifier capable of predicting whether applications for philan
 
 ## Summary
 
-The deep learning model is approximately ... accurate. 
+The deep learning model is approximately ... accurate. A supervised learning model such as a support vector machine or random forest may have been more effective in solving this classification problem.
