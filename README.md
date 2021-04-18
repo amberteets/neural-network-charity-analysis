@@ -24,6 +24,15 @@ Design a binary classifier capable of predicting whether applications for philan
 
   - Neurons, Layers, and Activation Functions
   - Target Model Performance
+
+    Target model performance of 75% accuracy was not achieved.
+
   - Optimization Strategy
 
+    To try and increase model performance, a testing function was created to enable easy modification of model parameters such as the number of hidden layers, number of neurons, and types of activation functions used. Through trial-and-error, parameters were optimized to maximize model accuracy.
+    
+    Supplementary data preprocessing was also employed to attempt to improve model accuracy. An extra feature, the natural log of `ASK_AMT`, was added to mitigate model confusion caused by large range of `ASK_AMT` values.
+
 ## Summary
+
+The deep learning model is approximately ... accurate. 
