@@ -2,7 +2,7 @@
 
 ## Background & Purpose
 
-Design a binary classifier capable of predicting whether applications for philanthropic donations will be successful if funded.
+Design a binary classifier capable of predicting whether applicants for philanthropic donations will be successful if funded.
 
 ## Results
 
@@ -23,6 +23,19 @@ Design a binary classifier capable of predicting whether applications for philan
 - **Compiling, Training, and Evaluating the Model**
 
   - Neurons, Layers, and Activation Functions
+
+    The deep learning model structure is as follows:
+    
+    <kdb> <img src="" /> </kbd>
+    
+    - The first hidden layer uses () neurons and the () activation function.
+    - The second hidden layer uses () neurons and the () activation function.
+    - The third hidden layer uses () neurons and the () activation function.
+    - The fourth hidden layer uses () neurons and the () activation function.
+    - The output layer uses the Sigmoid activation function.
+
+  The number of hidden layers was determined via trial and error, while the number of neurons for each layer is based on the principle that there should be approximately two to three times the number of neurons per hidden layer as the number of input dimensions. The Sigmoid and ReLU activation functions were utilized due to their efficacy when dealing with positive nonlinear input data and binary classification.
+
   - Target Model Performance
 
     Target model performance of 75% accuracy was not achieved.
@@ -35,4 +48,4 @@ Design a binary classifier capable of predicting whether applications for philan
 
 ## Summary
 
-The deep learning model is approximately ... accurate. A supervised learning model such as a support vector machine or random forest may have been more effective in solving this classification problem.
+The deep learning model is approximately ... accurate. A supervised learning model such as a support vector machine or random forest may have been more effective in solving this classification problem. In particular, because random forest models are less susceptible to influence from outliers, this model may produce a higher accuracy than the deep learning model.
