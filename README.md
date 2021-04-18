@@ -28,10 +28,10 @@ Design a binary classifier capable of predicting whether applicants for philanth
     
     <kdb> <img src="" /> </kbd>
     
-    - The first hidden layer uses () neurons and the () activation function.
-    - The second hidden layer uses () neurons and the () activation function.
-    - The third hidden layer uses () neurons and the () activation function.
-    - The fourth hidden layer uses () neurons and the () activation function.
+    - The first hidden layer uses 120 neurons and the Sigmoid activation function.
+    - The second hidden layer uses 80 neurons and the ReLU activation function.
+    - The third hidden layer uses 40 neurons and the Sigmoid activation function.
+    - The fourth hidden layer uses 10 neurons and the ReLU activation function.
     - The output layer uses the Sigmoid activation function.
 
   The number of hidden layers was determined via trial and error, while the number of neurons for each layer is based on the principle that there should be approximately two to three times the number of neurons per hidden layer as the number of input dimensions. The Sigmoid and ReLU activation functions were utilized due to their efficacy when dealing with positive nonlinear input data and binary classification.
