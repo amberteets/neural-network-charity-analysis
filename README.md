@@ -48,4 +48,4 @@ Design a binary classifier capable of predicting whether applicants for philanth
 
 ## Summary
 
-The deep learning model is approximately 72.9% accurate. A supervised learning model such as a support vector machine or random forest may have been more effective in solving this classification problem. In particular, because random forest models are less susceptible to influence from outliers, this model may produce a higher accuracy than the deep learning model.
+The deep learning model is approximately 72.7% accurate. A supervised learning model such as a support vector machine or random forest may have been more effective in solving this classification problem. In particular, because random forest models are less susceptible to influence from outliers, this model may produce a higher accuracy than the deep learning model.
