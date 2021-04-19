@@ -26,7 +26,7 @@ Design a binary classifier capable of predicting whether applicants for philanth
 
     The deep learning model structure is as follows:
     
-    <kdb> <img src="" /> </kbd>
+    <kdb> <img src="https://github.com/amberteets/neural-network-charity-analysis/blob/main/Resources/model_structure.png" /> </kbd>
     
     - The first hidden layer uses 132 neurons and the Sigmoid activation function.
     - The second hidden layer uses 88 neurons and the ReLU activation function.
