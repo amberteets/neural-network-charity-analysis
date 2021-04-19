@@ -28,10 +28,10 @@ Design a binary classifier capable of predicting whether applicants for philanth
     
     <kdb> <img src="" /> </kbd>
     
-    - The first hidden layer uses 120 neurons and the Sigmoid activation function.
-    - The second hidden layer uses 80 neurons and the ReLU activation function.
-    - The third hidden layer uses 40 neurons and the Sigmoid activation function.
-    - The fourth hidden layer uses 10 neurons and the ReLU activation function.
+    - The first hidden layer uses 132 neurons and the Sigmoid activation function.
+    - The second hidden layer uses 88 neurons and the ReLU activation function.
+    - The third hidden layer uses 44 neurons and the Sigmoid activation function.
+    - The fourth hidden layer uses 10 neurons and the Sigmoid activation function.
     - The output layer uses the Sigmoid activation function.
 
   The number of hidden layers was determined via trial and error, while the number of neurons for each layer is based on the principle that there should be approximately two to three times the number of neurons per hidden layer as the number of input dimensions. The Sigmoid and ReLU activation functions were utilized due to their efficacy when dealing with positive nonlinear input data and binary classification.
@@ -48,4 +48,4 @@ Design a binary classifier capable of predicting whether applicants for philanth
 
 ## Summary
 
-The deep learning model is approximately ... accurate. A supervised learning model such as a support vector machine or random forest may have been more effective in solving this classification problem. In particular, because random forest models are less susceptible to influence from outliers, this model may produce a higher accuracy than the deep learning model.
+The deep learning model is approximately 72.9% accurate. A supervised learning model such as a support vector machine or random forest may have been more effective in solving this classification problem. In particular, because random forest models are less susceptible to influence from outliers, this model may produce a higher accuracy than the deep learning model.
